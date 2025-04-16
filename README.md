@@ -1,7 +1,7 @@
 Minimal HTTP Server in C++
 
 Build:
-g++ -o server server.cpp
+g++ -o server main.cpp Network.cpp
 
 Run:
 ./server
