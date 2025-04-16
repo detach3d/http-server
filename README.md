@@ -9,4 +9,4 @@ Run:
 Does:
 - Listens on a port
 - Handles HTTP GET
-- Replies with "Hello"
+- Replies with file content
