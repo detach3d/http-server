@@ -89,7 +89,7 @@ int Network::accept_socket() {
         std::ostringstream response{};
         response << protocol_c << " 200 OK\n"
                 << "Content-Type: text/html\n"
-                << "Content-Length: " << contentLength << "\n\n"
+                << "Content-Length: " << contentLength + 1 << "\n\n"
                 << body;
 
         std::string responseStr = response.str();
